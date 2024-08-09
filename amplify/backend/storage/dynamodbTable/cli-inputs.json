@@ -1,0 +1,12 @@
+{
+  "resourceName": "dynamodbTable",
+  "tableName": "dynamodbuserstable",
+  "partitionKey": {
+    "fieldName": "marketprice",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "dynamodbTableTriggerc66240f5"
+  ]
+}

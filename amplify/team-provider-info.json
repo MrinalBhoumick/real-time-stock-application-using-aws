@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stockmarketapp-dev-c5374-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382729083:role/amplify-stockmarketapp-dev-c5374-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382729083:role/amplify-stockmarketapp-dev-c5374-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-stockmarketapp-dev-c5374-deployment",
+      "UnauthRoleName": "amplify-stockmarketapp-dev-c5374-unauthRole",
+      "StackName": "amplify-stockmarketapp-dev-c5374",
+      "StackId": "arn:aws:cloudformation:ap-south-1:992382729083:stack/amplify-stockmarketapp-dev-c5374/71f121f0-5652-11ef-a7ae-0abeb2ff4345",
+      "AmplifyAppId": "d1wwno4fc8kltu"
+    },
+    "categories": {
+      "auth": {
+        "stockmarketapp43e0ba04": {}
+      },
+      "api": {
+        "stockmarketapp": {}
+      },
+      "function": {
+        "stock0market0application": {
+          "region": "ap-south-1",
+          "secretsPathAmplifyAppId": "d1wwno4fc8kltu"
+        },
+        "stockmarketapplication": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+type StockPrice @model {
+  id: ID!
+  symbol: String!
+  price: Float!
+  timestamp: AWSDateTime!
+}

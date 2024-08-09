@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "auth": {
+      "stockmarketapp43e0ba04": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "api": {
+      "stockmarketapp": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    },
+    "storage": {
+      "StockPrice:@model(appsync)": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:ap-south-1:992382729083:layer:aws-sdk:1"
+    },
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:ap-south-1:992382729083:layer:nodejs-layer:2"
+    },
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:ap-south-1:992382729083:layer:pytz-layer:1"
+    }
+  ],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "region",
+      "environmentVariableName": "Region"
+    }
+  ],
+  "secretNames": [
+    "buildtwin"
+  ]
+}
